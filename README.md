@@ -19,8 +19,26 @@
 
 - Constructor method
 - Allows setting properties upon instantiation(creation)
-- Not required! 
+- Not required!
 - Invoked when `.new` is called
 - `.new` will pass any arguments to initialize
 - Initialize method will still assign attribute values to instance, but can not re-assign
-- 
+
+## Setter
+
+- Also knows as a 'writer' method
+- Returns the value of instance variables
+- Can use `instance_method_set`, but this could pose problems
+
+## Getter
+
+- Also known as a 'reader' method
+- Returns the value of instance variables
+- Can use `instance_method_get`, but this could pose problems
+
+## Macro
+
+- Abstraction
+- A method that returns a method
+- Shorter way of writing code
+- `attr_accessor`, `attr_writer`, `attr_reader`
