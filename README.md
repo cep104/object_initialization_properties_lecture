@@ -10,3 +10,13 @@
 - Setter (writer) method: A method which assigns properties to an object.
 - Object lifecycle: The concept that objects are created, events happen to an object, and it may eventually be destroyed in memory.
 - Initialize method: A method which is triggered by a class whenever a new object is instantiated.
+
+## Object Lifecycles
+
+- Every object goes through a lifecyle: Create, Read, Update, Delete
+
+## Initialize Method 
+
+- Allows setting properties upon instantiation(creation)
+- Not required! 
+- Invoked when `.new` is called
