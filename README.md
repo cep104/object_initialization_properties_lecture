@@ -15,8 +15,12 @@
 
 - Every object goes through a lifecyle: Create, Read, Update, Delete
 
-## Initialize Method 
+## Initialize Method
 
+- Constructor method
 - Allows setting properties upon instantiation(creation)
 - Not required! 
 - Invoked when `.new` is called
+- `.new` will pass any arguments to initialize
+- Initialize method will still assign attribute values to instance, but can not re-assign
+- 
