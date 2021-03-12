@@ -17,7 +17,7 @@
 
 ## Initialize Method
 
-- Constructor method
+- Constructor method (like JavaScript)
 - Allows setting properties upon instantiation(creation)
 - Not required!
 - Invoked when `.new` is called
